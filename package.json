@@ -1,0 +1,21 @@
+{
+  "name": "module-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open ",
+    "build": "webpack --mode production"
+  },
+  "author": "salavat",
+  "license": "ISC"
+}
