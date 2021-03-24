@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import avg from './some.js';
 import './button.css';
+import html from '/index.html'
 
-$('.title').html('текст3');
 console.log(avg(1,2,3));
