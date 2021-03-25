@@ -1,3 +1,9 @@
-h1{
-    color:red;
+body{
+    background:pink;
+}
+.btn{
+    background-color:aqua;
+    align-items: center;
+    width:200px;
+    height: 60;
 }

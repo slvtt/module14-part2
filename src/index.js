@@ -1,6 +1,12 @@
-import $ from 'jquery';
-import avg from './some.js';
+
+import clickCounter from './some.js';
 import './button.css';
 import html from '/index.html'
 
-console.log(avg(1,2,3));
+const btn = document.querySelector('.btn');
+const elem = document.querySelector('.create');
+let counter = 0;
+
+clickCounter(btn,elem,counter);
+
+console.log(1);
