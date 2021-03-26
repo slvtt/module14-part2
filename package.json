@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "jquery": "^3.6.0"
   },
   "devDependencies": {
@@ -23,9 +24,9 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "start": "webpack serve --mode development ",
-    "build": "webpack --mode production",
-    "crap": "webpack --mode=development"
+    "server": "cross-env NODE_ENV=development webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "cross-env NODE_ENV=development webpack"
   },
   "author": "salavat",
   "license": "ISC"

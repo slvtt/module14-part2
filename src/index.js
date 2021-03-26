@@ -1,12 +1,13 @@
 
-import clickCounter from './some.js';
-import './button.css';
+import './css/button.css';
 import html from '/index.html'
 
-const btn = document.querySelector('.btn');
-const elem = document.querySelector('.create');
-let counter = 0;
+(() => {
+    const btnClick = document.querySelector('.btn');
+    const str = 'World';
 
-clickCounter(btn,elem,counter);
+    btnClick.addEventListener('click',()=>{
+        btnClick.textContent = `Hello ${str}`;
+    });
 
-console.log(1);
+})()
