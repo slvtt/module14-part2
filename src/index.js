@@ -3,11 +3,11 @@ import './css/button.css';
 import html from '/index.html'
 
 (() => {
+    const block = document.querySelector('.create');
     const btnClick = document.querySelector('.btn');
-    const str = 'World';
-
+    let counter = 1;
     btnClick.addEventListener('click',()=>{
-        btnClick.textContent = `Hello ${str}`;
+        block.innerHTML =`Сделан ${counter++} click` ;
     });
 
 })()
