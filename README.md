@@ -1,2 +1,3 @@
 # module14-part2
-i cant build webpack config help me pls ()()())))))
+i almost made a webpack app
+im proud of myself hahaha
